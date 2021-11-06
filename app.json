@@ -1,0 +1,87 @@
+{
+  "name": "Meow - Assistant",
+  "description": "Meow Assistant bot", 
+  "logo": "",
+ "keywords": [
+  "telegram",
+  "Meloow",
+  "Assistant",
+  "modular",
+  "productivity"
+ ],
+ "repository": "https://github.com/kaal0408/Meowassistant",
+ "success_url": "https://github.com/loverboyXD",
+ "env": {
+  "API_KEY": {
+    "description": "Your Api Key..",
+    "required": true,
+    "value": ""
+  },
+  "ALLOW_EXCL": {
+    "description": "Don't Touch only use TRUE/FALSE",
+    "required": true,
+    "value": "FALSE"
+  },
+  "OWNER_ID": {
+    "description": "Your Owner id in integers",
+    "required": true ,
+    "value": ""
+  },
+  "OWNER_USERNAME": {
+    "description": "Your Owner username",
+    "required": true,
+    "value": ""
+  },
+  "SQLALCHEMY_DATABASE_URI": {
+    "description": "Database Uri Don't touch if you don't know",
+    "required": true,
+    "value": "sqldbtype://username:pw@hostname:port/db_name"
+  },
+  "MESSAGE_DUMP": {
+    "description": "Add Support Group id must start with -100",
+    "required": false,
+    "value": ""
+  },
+  "NO_LOAD": {
+    "description": "moduels which u Don't want to load",
+    "required": false,
+    "value": "rss"
+  },
+  "SUDO_USERS": {
+    "description": "List of SSudos",
+    "required": false,
+    "value": ""
+  },
+  "SUPPORT_USERS": {
+    "description": "Support users",
+    "required": false,
+    "value": ""
+  },
+  "WHITELIST_USERS": {
+    "description": "WHITELIST_USERS id",
+    "required": false,
+    "value": ""
+  },
+  "BAN_STICKER": {
+    "description": "Banned Sticker pack",
+    "required": false,
+    "value": "CAADAgADOwADPPEcAXkko5EB3YGYAg"
+  },
+  "API_ID": {
+   "description": "Get this value from my.telegram.org! Please do not steal",
+   "required": true,
+   "value": ""
+  },
+  "API_HASH": {
+  "description": "Get from api hash",
+  "required": true,
+  "value": ""
+  }
+ },
+ "addons": [{
+  "plan": "heroku-postgresql",
+  "options": {
+   "version": "12"
+  }
+ }]
+}
