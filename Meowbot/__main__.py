@@ -55,7 +55,7 @@ DONATE_STRING = """Heya, glad to hear you want to donate!
 It took lots of work for my creator to get me to where I am now, and every donation helps \
 motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
 (see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [Paytm](9610885288@paytm)."""
+There are two ways of paying him; [Paytm](@paytm)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
